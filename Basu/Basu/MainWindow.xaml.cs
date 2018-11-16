@@ -22,7 +22,6 @@ namespace Basu
     {
         public MainWindow()
         {
-            
             InitializeComponent();
         }
     }
