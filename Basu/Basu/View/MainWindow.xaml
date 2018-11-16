@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:Basu"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="#FFBB7676">
     <Grid>
         
     </Grid>
