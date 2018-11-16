@@ -1,2 +1,2 @@
 # Projekt-Basu
-Aplikacja rozkładu jazdy autobusów
+Aplikacja rozkładu jazdy autobusów.
