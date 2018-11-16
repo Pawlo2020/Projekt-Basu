@@ -22,7 +22,7 @@ namespace Basu
     {
         public MainWindow()
         {
-            //Komentarz testowy
+            
             InitializeComponent();
         }
     }
