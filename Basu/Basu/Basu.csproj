@@ -56,6 +56,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\DataLoader.cs" />
+    <Compile Include="ViewModel\DataSetter.cs" />
     <Compile Include="View\BusStopPage.xaml.cs">
       <DependentUpon>BusStopPage.xaml</DependentUpon>
     </Compile>
@@ -127,8 +129,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
