@@ -16,30 +16,15 @@ using System.Windows.Shapes;
 namespace Basu.View
 {
     /// <summary>
-    /// Logika interakcji dla klasy MenuPage.xaml
+    /// Logika interakcji dla klasy LinePage.xaml
     /// </summary>
-    public partial class MenuPage : Page
+    public partial class LinePage : Page
     {
         Frame MainFrame;
-        Page LinePag;
-        Page BusStopPag;
-        public MenuPage(Frame MainFrame, Page LinePag, Page BusStopPag)
+        public LinePage(Frame MainFrame)
         {
-            this.LinePag = LinePag;
-            this.BusStopPag = BusStopPag;
             this.MainFrame = MainFrame;
             InitializeComponent();
-            
-        }
-
-        private void LineCat_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Content = LinePag;
-        }
-
-        private void BusStopCat_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Content = BusStopPag;
         }
     }
 }

@@ -23,7 +23,9 @@ namespace Basu
         public MainWindow()
         {
             InitializeComponent();
-            View.MenuPage Menu = new View.MenuPage();
+            View.LinePage LinePag = new View.LinePage(MainFrame);
+            View.BusStopPage BusStopPag = new View.BusStopPage(MainFrame);
+            View.MenuPage Menu = new View.MenuPage(MainFrame,LinePag, BusStopPag);
             MainFrame.Content = Menu;
         }
     }
