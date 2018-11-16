@@ -23,6 +23,8 @@ namespace Basu
         public MainWindow()
         {
             InitializeComponent();
+            View.MenuPage Menu = new View.MenuPage();
+            MainFrame.Content = Menu;
         }
     }
 }
