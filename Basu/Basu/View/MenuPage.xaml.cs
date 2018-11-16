@@ -23,8 +23,10 @@ namespace Basu.View
         Frame MainFrame;
         Page LinePag;
         Page BusStopPag;
-        public MenuPage(Frame MainFrame, Page LinePag, Page BusStopPag)
+        Page FavouritesPag;
+        public MenuPage(Frame MainFrame, Page LinePag, Page BusStopPag, Page FavouritesPag)
         {
+            this.FavouritesPag = FavouritesPag;
             this.LinePag = LinePag;
             this.BusStopPag = BusStopPag;
             this.MainFrame = MainFrame;
@@ -40,6 +42,11 @@ namespace Basu.View
         private void BusStopCat_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Content = BusStopPag;
+        }
+
+        private void FavButCat_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = FavouritesPag;
         }
     }
 }

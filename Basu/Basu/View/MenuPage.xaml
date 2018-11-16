@@ -11,7 +11,7 @@
     <Grid>
         <Button x:Name="LineCat" FontSize="20" Content="Rozkład linii" BorderThickness="0" Background="#05c46b" Foreground="White" HorizontalAlignment="Left" Height="124" Margin="174,143,0,0" VerticalAlignment="Top" Width="225" Click="LineCat_Click"/>
         <Button x:Name="BusStopCat" FontSize="20" Background="#ff3f34" BorderThickness="0" Content="Rozkład przystanku" HorizontalAlignment="Left" Foreground="White" Height="124" Margin="589,143,0,0" VerticalAlignment="Top" Width="226" Click="BusStopCat_Click"/>
-        <Button x:Name="FavoritesCat" FontSize="20" Background="#8c7ae6" BorderThickness="0" Content="Ulubione" HorizontalAlignment="Left" Foreground="White" Height="51" Margin="174,289,0,0" VerticalAlignment="Top" Width="641" Click="BusStopCat_Click"/>
+        <Button x:Name="FavouritesCat" FontSize="20" Background="#8c7ae6" BorderThickness="0" Content="Ulubione" HorizontalAlignment="Left" Foreground="White" Height="51" Margin="174,289,0,0" VerticalAlignment="Top" Width="641" Click="FavButCat_Click"/>
         <Label x:Name="MenuLBL" FontSize="24" Content="Menu główne" HorizontalAlignment="Left" Margin="46,34,0,0" VerticalAlignment="Top"/>
 
     </Grid>
