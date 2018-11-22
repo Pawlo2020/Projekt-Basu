@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 
 namespace Basu
 {
+    
     /// <summary>
     /// Logika interakcji dla klasy MainWindow.xaml
     /// </summary>
