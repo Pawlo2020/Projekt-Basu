@@ -10,6 +10,14 @@
 
     <Grid>
         <Label x:Name="LineCatLBL" FontSize="24" Content="Rozkład linii" HorizontalAlignment="Left" Margin="46,34,0,0" VerticalAlignment="Top"/>
+        <ListView x:Name="LV" HorizontalAlignment="Left" Height="280" Margin="236,122,0,0" VerticalAlignment="Top" Width="562">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="570" Header="Numer linii" DisplayMemberBinding="{Binding lineNumber}"></GridViewColumn>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
 
     </Grid>
 </Page>

@@ -27,7 +27,8 @@ namespace Basu.View
             InitializeComponent();
 
             ViewModel.DataLoader Loader = new ViewModel.DataLoader();
-            Loader.getLines();
+            ViewModel.DataSetter Setter = new ViewModel.DataSetter();
+            Setter.setLines(LV, Loader.getLines());
         }
     }
 }
