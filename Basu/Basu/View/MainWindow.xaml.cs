@@ -24,22 +24,29 @@ namespace Basu
     {
         public MainWindow()
         {
+            //-------Blok kodu - utworzenie obiektów ob klas widoku
             InitializeComponent();
             View.LinePage LinePag = new View.LinePage(MainFrame);
             View.BusStopPage BusStopPag = new View.BusStopPage(MainFrame);
             View.FavouritesPage FavouritesPag = new View.FavouritesPage(MainFrame);
             View.MenuPage Menu = new View.MenuPage(MainFrame,LinePag, BusStopPag, FavouritesPag);
             MainFrame.Content = Menu;
+            //---------------------------
 
-            //Timer
-            DispatcherTimer timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, 
-            delegate
-            {
-                this.ClockLBL.Content = DateTime.Now.ToString("HH:mm");
-            }, 
-            this.Dispatcher);
+            //----------Blok kodu - Czasomierz oparty na System.Threading
+            DispatcherTimer Timer = new DispatcherTimer();      //Utworzenie obiektu Timer (czasomierza) klasy DispatcherTimer
+            Timer.Tick += new EventHandler(clockEv);            //Przypisanie wywołania zdarzenia do każdego cyklu timera
+            Timer.Interval = new TimeSpan(0, 0, 1);             //Interwał czasowy TimeSpan - jedna sekunda
+            Timer.Start();                                      //Wystartowanie czasomierza
+        }
 
-
+        //Implementacja zdarzenia clockEv - 
+        private void clockEv(object sender, EventArgs e)
+        {
+            DateTime time;          //Zmienna time zdolna do przechowywania czasu systemowego
+            time = DateTime.Now;    //Przypisanie aktualnego czasu systemowego
+            ClockLBL.Content = time.ToString("HH:mm:ss");   //Wyświetlenie aktualnej godziny, minuty oraz sekundy na label'u ClockLBL, przy pomocy zmiennej time,
+                                                            //która została sparsowana przez ToString w formacie żądanej godziny
         }
     }
 }
