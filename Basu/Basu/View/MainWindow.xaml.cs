@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Basu
 {
@@ -29,6 +30,16 @@ namespace Basu
             View.FavouritesPage FavouritesPag = new View.FavouritesPage(MainFrame);
             View.MenuPage Menu = new View.MenuPage(MainFrame,LinePag, BusStopPag, FavouritesPag);
             MainFrame.Content = Menu;
+
+            //Timer
+            DispatcherTimer timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, 
+            delegate
+            {
+                this.ClockLBL.Content = DateTime.Now.ToString("HH:mm");
+            }, 
+            this.Dispatcher);
+
+
         }
     }
 }

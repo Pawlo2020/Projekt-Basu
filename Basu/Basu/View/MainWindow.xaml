@@ -11,7 +11,7 @@
     <Grid>
         <StackPanel HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="1020" Background="#FF0984E3">
             <Label x:Name="TitleLBL" Foreground="White" FontFamily="Segoe UI" Content="Autobusowy rozkład jazdy" FontSize="24" Height="42" VerticalContentAlignment="Center" Margin="4,12,721.5,0"/>
-            <Label x:Name="ClockLBL" Foreground="White" FontFamily="Segoe UI" Content="Zegar" FontSize="24" Height="42" VerticalContentAlignment="Center" Margin="700,-42,21,0" FlowDirection="RightToLeft"/>
+            <Label x:Name="ClockLBL" Foreground="White" FontFamily="Segoe UI" Content="" FontSize="24" Height="42" VerticalContentAlignment="Center" Margin="700,-42,21,0" FlowDirection="RightToLeft"/>
         </StackPanel>
         <Frame x:Name="MainFrame" HorizontalAlignment="Left" Height="505" Margin="0,70,0,0" VerticalAlignment="Top" Width="1018"/>
 
