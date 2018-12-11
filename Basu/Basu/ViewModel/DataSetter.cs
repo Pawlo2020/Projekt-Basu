@@ -18,10 +18,17 @@ namespace Basu.ViewModel
 
         public void setLines(ListView listView, List<string> list) 
         {
-            foreach(String item in list)
+            for(int i=0; i<list.Count; i++)
             {
-                listView.Items.Add(new Model.Line { lineNumber = item });
+                listView.Items.Add(new Model.Line { lineNumber = list[i] });
+                i++;
             }
+
+
+            //foreach(String item in list)
+            //{
+            //    listView.Items.Add(new Model.Line { lineNumber = item });
+            //}
         }
 
 
