@@ -12,23 +12,28 @@ namespace Basu.ViewModel
         private Dictionary<string, string> Dict;
         private Model.Line _line;
         private Model.BusStop _busStop;
-        private XmlReader reader;
+        private XmlDocument reader;
         public List<string> linesList;
         //private Model.Timetable _timetable;
 
-        DataLoader()
+        public DataLoader()
         {
-            XmlReader Reader = XmlReader.Create("rozklad.xml");
+            XmlDocument reader = new XmlDocument();
+            this.reader = reader;
+            Console.WriteLine("Loader");
         }
 
         public void getLines()
         {
+            reader.Load("rozklad.xml");
             linesList = new List<string>();
-            while (reader.Read())
-            {
-                
-            }
 
+            foreach(XmlNode node in reader.DocumentElement.ChildNodes)
+            {
+                linesList.Add(node.InnerText);
+                Console.WriteLine(node.InnerText);
+            }
+            
 
 
         }

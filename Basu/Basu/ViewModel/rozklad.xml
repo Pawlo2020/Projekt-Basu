@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rozklad>
+    <przystanki>
+      <LineID Name="3">
+        <przystanek>Władysława IV</przystanek>
+        <przystanek>Kwiatkowskiego</przystanek>
+        <przystanek>Sikorskiego</przystanek>
+        <przystanek>Wańkowicza</przystanek>
+        <przystanek>Podgórna</przystanek>
+        <przystanek>Szpital Gruźliczy</przystanek>
+        <przystanek>Dworzec PKP</przystanek>
+        <przystanek>Dworzec PKS</przystanek>
+        <przystanek>Łużycka</przystanek>
+        <przystanek>Lechicka</przystanek>
+        <przystanek>Ogrodnictwo</przystanek>
+        <przystanek>Drukarnia</przystanek>
+        <przystanek>Niekłonice Działki</przystanek>
+        <przystanek>Niekłonice</przystanek>
+        <przystanek>Niekłonice Wieś</przystanek>
+      </LineID>
+        <LineID Name="33">
+            <przystanek>Niekłonice Wieś</przystanek>
+            <przystanek>Niekłonice</przystanek>
+            <przystanek>Niekłonice Działki</przystanek>
+            <przystanek>Drukarnia</przystanek>
+            <przystanek>Ogrodnictwo</przystanek>
+            <przystanek>Lechicka Działki</przystanek>
+            <przystanek>Lechicka</przystanek>
+            <przystanek>Łużycka</przystanek>
+            <przystanek>Powstańców Wielkopolskich</przystanek>
+            <przystanek>Dworzec PKP</przystanek>
+            <przystanek>Szpital Gruźliczy</przystanek>
+            <przystanek>Podgórna</przystanek>
+            <przystanek>Wańkowicza</przystanek>
+            <przystanek>Kwiatkowskiego</przystanek>
+            <przystanek>Władysława</przystanek>
+        </LineID>
+        <LineID Name="9">
+            <przystanek>Chałubińskiego</przystanek>
+            <przystanek>Szpital</przystanek>
+            <przystanek>Park Wodny</przystanek>
+            <przystanek>Śniadeckich</przystanek>
+            <przystanek>Śniadeckich Politechnika</przystanek>
+            <przystanek>ZUS</przystanek>
+            <przystanek>Plac Kilińskiego</przystanek>
+            <przystanek>Urząd Miejski</przystanek>
+            <przystanek>1 Maja</przystanek>
+            <przystanek>Gazwonia</przystanek>
+            <przystanek>Połczyńska</przystanek>
+            <przystanek>Połczyńska Szkoła</przystanek>
+            <przystanek>Sarzyno</przystanek>
+            <przystanek>Żytnia</przystanek>
+            <przystanek>Seminaryjna</przystanek>
+            <przystanek>Seminaruim</przystanek>
+        </LineID>
+        <LineID Name="99">
+            <przystanek>Seminarium</przystanek>
+            <przystanek>Seminaryjna</przystanek>
+            <przystanek>Żytnia</przystanek>
+            <przystanek>Sarzyno</przystanek>
+            <przystanek>Połczyńska Szkoła</przystanek>
+            <przystanek>Połczyńska</przystanek>
+            <przystanek>Gazownia</przystanek>
+            <przystanek>1 Maja</przystanek>
+            <przystanek>Urząd Miejski</przystanek>
+            <przystanek>Biblioteka</przystanek>
+            <przystanek>ZUS</przystanek>
+            <przystanek>Politechnika</przystanek>
+            <przystanek>Śniadeckich Politechnika</przystanek>
+            <przystanek>Śniadeckich Hala</przystanek>
+            <przystanek>Gdańska</przystanek>
+            <przystanek>Park Wodny</przystanek>
+            <przystanek>Szpital</przystanek>
+            <przystanek>PWSZ</przystanek>
+            <przystanek>Chałubińskiego</przystanek>
+        </LineID>
+        <LineID Name="10">
+            <przystanek>Chałubińskiego</przystanek>
+            <przystanek>Szpital</przystanek>
+            <przystanek>Piłsudskiego</przystanek>
+            <przystanek>Orląt Lwowskich</przystanek>
+            <przystanek>Traugutta</przystanek>
+            <przystanek>Moniuszki</przystanek>
+            <przystanek>Grottgera</przystanek>
+            <przystanek>Clausiusa</przystanek>
+            <przystanek>Rynek Staromiejski</przystanek>
+            <przystanek>Dworzec PKP</przystanek>
+            <przystanek>Energetyka</przystanek>
+            <przystanek>Energetyków</przystanek>
+            <przystanek>Urząd Skarbowy</przystanek>
+            <przystanek>Urząd Celny</przystanek>
+            <przystanek>BoWiD Mieszkalny</przystanek>
+            <przystanek>ZORD</przystanek>
+            <przystanek>BoWiD Zakłady</przystanek>
+            <przystanek>BoWiD</przystanek>
+        </LineID>
+        <LineID Name="1010">
+            <przystanek>BoWiD</przystanek>
+            <przystanek>BoWiD Zakłady</przystanek>
+            <przystanek>BoWiD Mieszkalny</przystanek>
+            <przystanek>Urząd Celny</przystanek>
+            <przystanek>Przemysłowa</przystanek>
+            <przystanek>Urząd Skarbowy</przystanek>
+            <przystanek>Energetyków</przystanek>
+            <przystanek>Dworzec PKP</przystanek>
+            <przystanek>Dworzec PKS</przystanek>
+            <przystanek>Rynek Staromiejski</przystanek>
+            <przystanek>CK 105</przystanek>
+            <przystanek>Clausiusa</przystanek>
+            <przystanek>Grottgera</przystanek>
+            <przystanek>Moniuszki</przystanek>
+            <przystanek>Traugutta</przystanek>
+            <przystanek>Orląt Lwowskich</przystanek>
+            <przystanek>Szpital</przystanek>
+            <przystanek>PWSZ</przystanek>
+            <przystanek>Chałubińskiego</przystanek>
+        </LineID>
+        <LineID Name="11">
+            <przystanek>Os. Bukowe</przystanek>
+            <przystanek>Lelewela</przystanek>
+            <przystanek>Śniadeckich</przystanek>
+            <przystanek>Śniadeckich Politechnika</przystanek>
+            <przystanek>Politechnika</przystanek>
+            <przystanek>Orląt Lwowskich</przystanek>
+            <przystanek>Sąd Okręgowy</przystanek>
+            <przystanek>Grottgera</przystanek>
+            <przystanek>Clausiusa</przystanek>
+            <przystanek>Rynek Staromiejski</przystanek>
+            <przystanek>Dworzec PKS</przystanek>
+            <przystanek>Lutyków</przystanek>
+            <przystanek>Wenedów</przystanek>
+            <przystanek>MEC</przystanek>
+            <przystanek>Słowińska</przystanek>
+            <przystanek>Łużycka</przystanek>
+        </LineID>
+        <LineID Name="1111">
+            <przystanek>Łużycka</przystanek>
+            <przystanek>Powstańców Wielkopolskich</przystanek>
+            <przystanek>Dworzec PKS</przystanek>
+            <przystanek>Rynek Staromiejski</przystanek>
+            <przystanek>CK 105</przystanek>
+            <przystanek>Clausiusa</przystanek>
+            <przystanek>Sąd Okręgowy</przystanek>
+            <przystanek>Radio</przystanek>
+            <przystanek>Biblioteka Pedagogiczna</przystanek>
+            <przystanek>Budowlanka</przystanek>
+            <przystanek>Politechnika</przystanek>
+            <przystanek>Śniadeckich Politechnika</przystanek>
+            <przystanek>Śniadeckich Hala</przystanek>
+            <przystanek>Śniadeckich</przystanek>
+            <przystanek>Lelewela</przystanek>
+            <przystanek>Os. Bukowe</przystanek>
+        </LineID>
+        <LineID Name="14">
+            <przystanek>Os. Bukowe</przystanek>
+            <przystanek>Lelewela</przystanek>
+            <przystanek>Śniadeckich</przystanek>
+            <przystanek>Śniadeckich Politechnika</przystanek>
+            <przystanek>Politechnika</przystanek>
+            <przystanek>Orląt Lwowskich</przystanek>
+            <przystanek>Traugutta</przystanek>
+            <przystanek>Moniuszki</przystanek>
+            <przystanek>Grottgera</przystanek>
+            <przystanek>Clausiusa</przystanek>
+            <przystanek>Rynek Staromiejski</przystanek>
+            <przystanek>Dworzec PKP</przystanek>
+            <przystanek>Energetyka</przystanek>
+            <przystanek>Energetyków</przystanek>
+            <przystanek>Franciszkańska</przystanek>
+            <przystanek>Os. Morskie</przystanek>
+        </LineID>
+        <LineID Name="1414">
+            <przystanek>Łużycka</przystanek>
+            <przystanek>Powstańców Wielkopolskich</przystanek>
+            <przystanek>Dworzec PKS</przystanek>
+            <przystanek>Rynek Staromiejski</przystanek>
+            <przystanek>CK 105</przystanek>
+            <przystanek>Clausiusa</przystanek>
+            <przystanek>Sąd Okręgowy</przystanek>
+            <przystanek>Radio</przystanek>
+            <przystanek>Biblioteka Pedagogiczna</przystanek>
+            <przystanek>Budowlanka</przystanek>
+            <przystanek>Politechnia</przystanek>
+            <przystanek>Śniadeckich Politechnika</przystanek>
+            <przystanek>Śniadeckich Hala</przystanek>
+            <przystanek>Śniadeckich</przystanek>
+            <przystanek>Lelewela</przystanek>
+            <przystanek>Os. Bukowe</przystanek>
+        </LineID>
+    </przystanki>
+</rozklad>

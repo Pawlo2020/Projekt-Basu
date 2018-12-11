@@ -25,6 +25,9 @@ namespace Basu.View
         {
             this.MainFrame = MainFrame;
             InitializeComponent();
+
+            ViewModel.DataLoader Loader = new ViewModel.DataLoader();
+            Loader.getLines();
         }
     }
 }
