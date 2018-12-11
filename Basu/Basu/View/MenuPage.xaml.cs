@@ -21,14 +21,8 @@ namespace Basu.View
     public partial class MenuPage : Page
     {
         Frame MainFrame;
-        Page LinePag;
-        Page BusStopPag;
-        Page FavouritesPag;
-        public MenuPage(Frame MainFrame, Page LinePag, Page BusStopPag, Page FavouritesPag)
+        public MenuPage(Frame MainFrame)
         {
-            this.FavouritesPag = FavouritesPag;
-            this.LinePag = LinePag;
-            this.BusStopPag = BusStopPag;
             this.MainFrame = MainFrame;
             InitializeComponent();
             
@@ -36,16 +30,19 @@ namespace Basu.View
 
         private void LineCat_Click(object sender, RoutedEventArgs e)
         {
+            View.LinePage LinePag = new View.LinePage(MainFrame);
             MainFrame.Content = LinePag;
         }
 
         private void BusStopCat_Click(object sender, RoutedEventArgs e)
         {
+            View.BusStopPage BusStopPag = new View.BusStopPage(MainFrame);
             MainFrame.Content = BusStopPag;
         }
 
         private void FavButCat_Click(object sender, RoutedEventArgs e)
         {
+            View.FavouritesPage FavouritesPag = new View.FavouritesPage(MainFrame);
             MainFrame.Content = FavouritesPag;
         }
     }

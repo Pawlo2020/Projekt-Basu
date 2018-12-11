@@ -26,10 +26,8 @@ namespace Basu
         {
             //-------Blok kodu - utworzenie obiektów ob klas widoku
             InitializeComponent();
-            View.LinePage LinePag = new View.LinePage(MainFrame);
-            View.BusStopPage BusStopPag = new View.BusStopPage(MainFrame);
-            View.FavouritesPage FavouritesPag = new View.FavouritesPage(MainFrame);
-            View.MenuPage Menu = new View.MenuPage(MainFrame,LinePag, BusStopPag, FavouritesPag);
+            
+            View.MenuPage Menu = new View.MenuPage(MainFrame);
             MainFrame.Content = Menu;
             //---------------------------
 

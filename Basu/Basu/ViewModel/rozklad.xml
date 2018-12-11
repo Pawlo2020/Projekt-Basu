@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rozklad>
-    <przystanki>
       <LineID Name="3">
         <przystanek>Władysława IV</przystanek>
         <przystanek>Kwiatkowskiego</przystanek>
@@ -187,5 +186,4 @@
             <przystanek>Lelewela</przystanek>
             <przystanek>Os. Bukowe</przystanek>
         </LineID>
-    </przystanki>
 </rozklad>

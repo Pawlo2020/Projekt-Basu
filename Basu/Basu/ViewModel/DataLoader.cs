@@ -23,22 +23,26 @@ namespace Basu.ViewModel
             Console.WriteLine("Loader");
         }
 
-        public void getLines()
+        public List<string> getLines()
         {
             reader.Load("rozklad.xml");
             linesList = new List<string>();
 
-            foreach(XmlNode node in reader.DocumentElement.ChildNodes)
+            foreach(XmlNode node in reader.SelectNodes("//id-przystanku[@Id]"))
             {
-                linesList.Add(node.InnerText);
-                Console.WriteLine(node.InnerText);
+                linesList.Add(node.Attributes["Id"].Value);
             }
-            
+
+            foreach (var item in linesList)
+            {
+                Console.WriteLine(item);
+            }
+
+            return linesList;
+
 
 
         }
-
-
         public void getBusStops()
         {
 
