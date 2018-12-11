@@ -23,12 +23,14 @@ namespace Basu.ViewModel
                 listView.Items.Add(new Model.Line { lineNumber = list[i] });
                 i++;
             }
+        }
 
-
-            //foreach(String item in list)
-            //{
-            //    listView.Items.Add(new Model.Line { lineNumber = item });
-            //}
+        public void setBusStops(ListView listView, List<string> list)
+        {
+            for(int i=0; i < list.Count; i++)
+            {
+                listView.Items.Add(new Model.BusStop { stopName = list[i] });
+            }
         }
 
 

@@ -24,7 +24,10 @@ namespace Basu.View
         public BusStopPage(Frame MainFrame)
         {
             this.MainFrame = MainFrame;
+            ViewModel.DataLoader Loader = new ViewModel.DataLoader();
+            ViewModel.DataSetter Setter = new ViewModel.DataSetter();
             InitializeComponent();
+            Setter.setBusStops(LV, Loader.getBusStops());
         }
     }
 }

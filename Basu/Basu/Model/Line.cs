@@ -9,10 +9,6 @@ namespace Basu.Model
     class Line
     {
         public string lineNumber { get; set;}
-
-
-
-
-
+        public string direction { get; set; }
     }
 }

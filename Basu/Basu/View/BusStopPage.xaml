@@ -10,5 +10,12 @@
 
     <Grid>
         <Label x:Name="LineCatLBL" FontSize="24" Content="Rozkład przystanku" HorizontalAlignment="Left" Margin="46,34,0,0" VerticalAlignment="Top"/>
+        <ListView x:Name="LV" HorizontalAlignment="Left" Height="280" Margin="236,122,0,0" VerticalAlignment="Top" Width="562" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="555" Header="Nazwa przystanku" DisplayMemberBinding="{Binding stopName}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Page>

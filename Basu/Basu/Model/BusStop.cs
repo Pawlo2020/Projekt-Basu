@@ -8,5 +8,6 @@ namespace Basu.Model
 {
     class BusStop
     {
+        public string stopName { get; set; }
     }
 }
