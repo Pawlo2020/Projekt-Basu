@@ -1,0 +1,22 @@
+﻿<Page x:Class="Basu.View.LinePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Basu.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="505" d:DesignWidth="1018" Background="#FFDFE6E9"
+      Title="LinePage">
+
+    <Grid>
+        <Label x:Name="LineCatLBL" FontSize="24" Content="Rozkład linii" HorizontalAlignment="Left" Margin="46,34,0,0" VerticalAlignment="Top"/>
+        <ListView x:Name="LV" HorizontalAlignment="Left" Height="280" Margin="236,122,0,0" VerticalAlignment="Top" Width="562" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="555" Header="Numer linii" DisplayMemberBinding="{Binding lineNumber}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Page>

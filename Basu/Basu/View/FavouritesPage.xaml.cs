@@ -13,15 +13,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Basu
+namespace Basu.View
 {
     /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
+    /// Logika interakcji dla klasy FavouritesPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FavouritesPage : Page
     {
-        public MainWindow()
+        Frame MainFrame;
+        public FavouritesPage(Frame MainFrame)
         {
+            this.MainFrame = MainFrame;
             InitializeComponent();
         }
     }

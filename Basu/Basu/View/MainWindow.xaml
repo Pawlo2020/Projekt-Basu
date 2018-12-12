@@ -1,0 +1,19 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Basu"
+        xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework" x:Class="Basu.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1024" Background="#FFDFE6E9" ResizeMode="NoResize">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="1020" Background="#FF0984E3">
+            <Label x:Name="TitleLBL" Foreground="White" FontFamily="Segoe UI" Content="Autobusowy rozkład jazdy" FontSize="24" Height="42" VerticalContentAlignment="Center" Margin="4,12,721.5,0"/>
+            <Label x:Name="ClockLBL" Foreground="White" FontFamily="Segoe UI" Content="" FontSize="24" Height="42" VerticalContentAlignment="Center" Margin="700,-42,21,0" FlowDirection="RightToLeft" Initialized="clockEv" />
+        </StackPanel>
+        <Frame x:Name="MainFrame" HorizontalAlignment="Left" Height="505" Margin="0,70,0,0" VerticalAlignment="Top" Width="1018"/>
+
+    </Grid>
+</Window>
